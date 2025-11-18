@@ -1,6 +1,6 @@
 # Polymarket Copy Trading Bot
 
-Automated copy trading bot for Polymarket. Monitors selected traders and automatically mirrors their positions with proportional sizing.
+Automated copy trading bot for the Prediction Market. Monitors selected traders and automatically mirrors their positions with proportional sizing.
 
 ## Quick Start
 
