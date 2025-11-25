@@ -7,8 +7,8 @@ export type TradeSignal = {
   sizeUsd: number;
   price: number;
   timestamp: number;
-  pendingTxHash?: string; // For frontrunning - the transaction we're trying to frontrun
-  targetGasPrice?: string; // Gas price of the target transaction
+  pendingTxHash?: string;
+  targetGasPrice?: string;
 };
 
 export type TradeEvent = {
