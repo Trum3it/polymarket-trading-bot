@@ -22,8 +22,8 @@ Required environment variables:
 
 ```env
 TARGET_ADDRESSES=0xabc...,0xdef...    # Target addresses to frontrun (comma-separated)
-PUBLIC_KEY=0xyour_wallet          # Your Polygon wallet
-PRIVATE_KEY=your_private_key        # Without 0x prefix
+PUBLIC_KEY=your_bot_wallet            # Public address of ur bot wallet will be used for copytrading
+PRIVATE_KEY=your_bot_wallet_privatekey   # Privatekey of above address
 RPC_URL=https://polygon-mainnet...  # Polygon RPC endpoint (must support pending tx monitoring)
 ```
 
